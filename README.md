@@ -14,3 +14,14 @@ This application is going to help you schedule your day when you are traveling, 
 ![Travel Planner App](https://user-images.githubusercontent.com/89596201/195473568-ccffa5f0-7df1-4aae-b462-5bcf52c67f39.jpg)
 
 ![Trip Planner App](https://user-images.githubusercontent.com/89596201/195473570-840e835e-e873-49c9-93c1-3b92d2d48805.png)
+
+### Process to be followed
+
+Since I am new to coding and I want to develop a good understanding of it, I have started looking for platforms where I can learn swift ui in a more advanced way. I would like to get some hands-on practice with it. Since I am new to coding, I have been spending the majority of my time learning the fundamentals of it and pondering how I can make it easier for myself. Multiple tutorials that were sent to me for the class that I am currently enrolled in, and I am currently working through them thoroughly along with the reading assignments. 
+
+With the help of this project, I have begun creating and seeking for similar items that are already on the market, both of which will assist me in navigating this entire journey and will enable me to get the feel of using this platform. After that, I would like to jump on the section of coding where I have a good understanding of SwiftUI as well as a better understanding with the outcome as well. Initially, I intend to create a mockup of this application in a prototyping software and understand the user flow as well as the information architecture of it.
+
+### XD Prototype
+
+![Web 1366 – 1](https://user-images.githubusercontent.com/89596201/195477230-a193eac3-4e12-4027-a264-70ea85462364.png)
+
