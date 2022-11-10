@@ -14,6 +14,7 @@
 		83A54233291C71BB00691908 /* Loginview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A54232291C71BB00691908 /* Loginview.swift */; };
 		83A54237291C724A00691908 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A54236291C724A00691908 /* SignupView.swift */; };
 		83A54239291C731100691908 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A54238291C731100691908 /* BackgroundGradientView.swift */; };
+		83A5423B291C849100691908 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5423A291C849100691908 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		83A54232291C71BB00691908 /* Loginview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginview.swift; sourceTree = "<group>"; };
 		83A54236291C724A00691908 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		83A54238291C731100691908 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
+		83A5423A291C849100691908 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				83A54238291C731100691908 /* BackgroundGradientView.swift */,
+				83A5423A291C849100691908 /* LogoView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A54237291C724A00691908 /* SignupView.swift in Sources */,
+				83A5423B291C849100691908 /* LogoView.swift in Sources */,
 				83A54233291C71BB00691908 /* Loginview.swift in Sources */,
 				83A54224291C5E8200691908 /* ContentView.swift in Sources */,
 				83A54239291C731100691908 /* BackgroundGradientView.swift in Sources */,

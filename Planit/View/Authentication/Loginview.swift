@@ -12,6 +12,9 @@ struct Loginview: View {
     
         ZStack{
             BackgroundGradientView()
+            VStack{
+                LogoView()
+            }
             
             
             
