@@ -15,6 +15,7 @@ struct Loginview: View {
     var body: some View {
         ZStack{
             BackgroundGradientView()
+            
             VStack{
                 LogoView()
                     .padding(.bottom, 25)
@@ -22,9 +23,9 @@ struct Loginview: View {
                     
                 VStack(spacing: 20){
                     EmailTextField(text: $email)
-                        .padding(.horizontal, 32)
-                    
-                }// end of Vstack
+                    PasswordSecureView(text: $password, placeholder: "Password")
+                    }// end of Vstack
+                .padding(.horizontal, 32)
                 
                 
                 
