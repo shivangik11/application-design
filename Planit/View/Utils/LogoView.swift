@@ -14,7 +14,7 @@ struct LogoView: View {
             Image("Logo")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 150, height: 150)
+                .frame(width: 120, height: 150)
             
             Text("PLAN iT")
                 .foregroundColor(.black)
