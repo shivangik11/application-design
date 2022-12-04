@@ -27,6 +27,29 @@ struct Loginview: View {
                     }// end of Vstack
                 .padding(.horizontal, 32)
                 
+                HStack {
+                    Spacer()
+                    Button{
+                        //foregt password
+                    } label: {
+                        Text("Forget Password?")
+                            .foregroundColor(.white)
+                            .font(.system(size: 13, weight: .semibold))
+                            .padding(.top)
+                            .padding(.trailing, 27)
+                    }
+                }// end of HStack
+                
+//                Spacer()
+                
+                Button{
+                    // Signin action
+                }label: {
+                    AuthenticateButton(text: "Sign in")
+                        .padding()
+                    
+                    
+                }
                 
                 
                 
