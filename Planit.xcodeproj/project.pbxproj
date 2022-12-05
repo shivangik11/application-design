@@ -14,6 +14,12 @@
 		83A54233291C71BB00691908 /* Loginview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A54232291C71BB00691908 /* Loginview.swift */; };
 		83A54237291C724A00691908 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A54236291C724A00691908 /* SignupView.swift */; };
 		83A54239291C731100691908 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A54238291C731100691908 /* BackgroundGradientView.swift */; };
+		83A5423B291C849100691908 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5423A291C849100691908 /* LogoView.swift */; };
+		83A5423D291DA5FB00691908 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5423C291DA5FB00691908 /* CustomTextField.swift */; };
+		83F24144293D17ED0009049A /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F24143293D17ED0009049A /* EmailTextField.swift */; };
+		83F24146293D1D380009049A /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F24145293D1D380009049A /* CustomSecureField.swift */; };
+		83F24148293D29520009049A /* PasswordSecureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F24147293D29520009049A /* PasswordSecureView.swift */; };
+		83F2414A293D2FF50009049A /* AuthenticateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F24149293D2FF50009049A /* AuthenticateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,12 @@
 		83A54232291C71BB00691908 /* Loginview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginview.swift; sourceTree = "<group>"; };
 		83A54236291C724A00691908 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		83A54238291C731100691908 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
+		83A5423A291C849100691908 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		83A5423C291DA5FB00691908 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		83F24143293D17ED0009049A /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		83F24145293D1D380009049A /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		83F24147293D29520009049A /* PasswordSecureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureView.swift; sourceTree = "<group>"; };
+		83F24149293D2FF50009049A /* AuthenticateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +91,8 @@
 		83A5422F291C710A00691908 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				83A54235291C721900691908 /* Authentication */,
 				83A54234291C720000691908 /* Utils */,
+				83A54235291C721900691908 /* Authentication */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,7 +114,11 @@
 		83A54234291C720000691908 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				83F24140293D17A00009049A /* TextFields */,
 				83A54238291C731100691908 /* BackgroundGradientView.swift */,
+				83A5423A291C849100691908 /* LogoView.swift */,
+				83A5423C291DA5FB00691908 /* CustomTextField.swift */,
+				83F24149293D2FF50009049A /* AuthenticateButton.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -114,6 +130,16 @@
 				83A54236291C724A00691908 /* SignupView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		83F24140293D17A00009049A /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				83F24143293D17ED0009049A /* EmailTextField.swift */,
+				83F24145293D1D380009049A /* CustomSecureField.swift */,
+				83F24147293D29520009049A /* PasswordSecureView.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,10 +212,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F24148293D29520009049A /* PasswordSecureView.swift in Sources */,
+				83F24144293D17ED0009049A /* EmailTextField.swift in Sources */,
+				83A5423D291DA5FB00691908 /* CustomTextField.swift in Sources */,
 				83A54237291C724A00691908 /* SignupView.swift in Sources */,
+				83A5423B291C849100691908 /* LogoView.swift in Sources */,
 				83A54233291C71BB00691908 /* Loginview.swift in Sources */,
+				83F2414A293D2FF50009049A /* AuthenticateButton.swift in Sources */,
 				83A54224291C5E8200691908 /* ContentView.swift in Sources */,
 				83A54239291C731100691908 /* BackgroundGradientView.swift in Sources */,
+				83F24146293D1D380009049A /* CustomSecureField.swift in Sources */,
 				83A54222291C5E8200691908 /* PlanitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

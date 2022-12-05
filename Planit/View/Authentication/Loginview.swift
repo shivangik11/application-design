@@ -8,18 +8,81 @@
 import SwiftUI
 
 struct Loginview: View {
+    
+    @State var email = ""
+    @State var password = ""
+    
     var body: some View {
-        Text("login")
+        NavigationView{
+            
+            ZStack{
+                BackgroundGradientView()
+                
+                VStack{
+                    LogoView()
+                        .padding(.bottom, 25)
+                    
+                    
+                    VStack(spacing: 20){
+                        EmailTextField(text: $email)
+                        PasswordSecureView(text: $password, placeholder: "Password")
+                    }// end of Vstack
+                    .padding(.horizontal, 32)
+                    
+                    HStack {
+                        Spacer()
+                        Button{
+                            //foregt password
+                        } label: {
+                            Text("Forget Password?")
+                                .foregroundColor(.white)
+                                .font(.system(size: 13, weight: .semibold))
+                                .padding(.top)
+                                .padding(.trailing, 27)
+                        }
+                    }// end of HStack
+                    
+                    //                Spacer()
+                    
+                    Button{
+                        // Signin action
+                    }label: {
+                        AuthenticateButton(text: "Sign in")
+                            .padding()
+                        
+                        
+                    }
+                    NavigationLink(
+                        destination: SignupView()
+                        .navigationBarHidden(true),
+                        label:{
+                            HStack{
+                                Text("Don't have an account?")
+                                    .font(.system(size: 14))
+                                Text("Sign up")
+                                    .font(.system(size: 14, weight: .semibold))
+                            }
+                            .foregroundColor(.white)
+                            }
+                            )
+                    .padding(.bottom, 16)
+                    
+                }// end of Vstack
+                .padding(.top, -44)
+                
+                
+            }// end of Zstack
+        }
     }
-}
-
-
-
-
-
-
-struct Loginview_Previews: PreviewProvider {
-    static var previews: some View {
-        Loginview()
+    
+    
+    
+    
+    
+    
+    struct Loginview_Previews: PreviewProvider {
+        static var previews: some View {
+            Loginview()
+        }
     }
 }
