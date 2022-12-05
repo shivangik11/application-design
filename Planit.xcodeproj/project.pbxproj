@@ -20,6 +20,7 @@
 		83F24146293D1D380009049A /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F24145293D1D380009049A /* CustomSecureField.swift */; };
 		83F24148293D29520009049A /* PasswordSecureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F24147293D29520009049A /* PasswordSecureView.swift */; };
 		83F2414A293D2FF50009049A /* AuthenticateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F24149293D2FF50009049A /* AuthenticateButton.swift */; };
+		83F2414C293E46260009049A /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2414B293E46260009049A /* UserTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		83F24145293D1D380009049A /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		83F24147293D29520009049A /* PasswordSecureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureView.swift; sourceTree = "<group>"; };
 		83F24149293D2FF50009049A /* AuthenticateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButton.swift; sourceTree = "<group>"; };
+		83F2414B293E46260009049A /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				83F24143293D17ED0009049A /* EmailTextField.swift */,
 				83F24145293D1D380009049A /* CustomSecureField.swift */,
 				83F24147293D29520009049A /* PasswordSecureView.swift */,
+				83F2414B293E46260009049A /* UserTextField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				83F24148293D29520009049A /* PasswordSecureView.swift in Sources */,
 				83F24144293D17ED0009049A /* EmailTextField.swift in Sources */,
+				83F2414C293E46260009049A /* UserTextField.swift in Sources */,
 				83A5423D291DA5FB00691908 /* CustomTextField.swift in Sources */,
 				83A54237291C724A00691908 /* SignupView.swift in Sources */,
 				83A5423B291C849100691908 /* LogoView.swift in Sources */,
