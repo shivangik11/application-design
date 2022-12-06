@@ -37,6 +37,7 @@
 		83F2416B293E68E80009049A /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2416A293E68E80009049A /* MockData.swift */; };
 		83FC4778293FAB1100682124 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC4777293FAB1100682124 /* AuthViewModel.swift */; };
 		83FC477A293FB27800682124 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC4779293FB27800682124 /* DashboardView.swift */; };
+		83FC477C293FD8FA00682124 /* planViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC477B293FD8FA00682124 /* planViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		83F2416A293E68E80009049A /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		83FC4777293FAB1100682124 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		83FC4779293FB27800682124 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		83FC477B293FD8FA00682124 /* planViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				83FC4777293FAB1100682124 /* AuthViewModel.swift */,
+				83FC477B293FD8FA00682124 /* planViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				83F24144293D17ED0009049A /* EmailTextField.swift in Sources */,
 				83F2416B293E68E80009049A /* MockData.swift in Sources */,
 				83F2414C293E46260009049A /* UserTextField.swift in Sources */,
+				83FC477C293FD8FA00682124 /* planViewModel.swift in Sources */,
 				83F24166293E63630009049A /* SelectedButton.swift in Sources */,
 				83A5423D291DA5FB00691908 /* CustomTextField.swift in Sources */,
 				83A54237291C724A00691908 /* SignupView.swift in Sources */,
