@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct PlanitApp: App {
+    init(){
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(AuthViewModel.shared)
         }
     }
 }
