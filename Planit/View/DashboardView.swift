@@ -10,21 +10,41 @@ import SwiftUI
 struct DashboardView: View {
     
     let user: AppUser
+    @State var searchtext: String = ""
     
-//    @ObservedObject viewModel
+   @ObservedObject var viewModel = planViewModel()
      
     var body: some View {
-        VStack{
-            Text("Dashboard View")
-            Button{
-                AuthViewModel.shared.signout()
-            }label:{
-                Text("Log Out")
-            }
-            .padding()
+        ZStack{
+            VStack{
+                HStack{
+                    Spacer()
+                    Text("PLan-it")
+                        .font(.system(size: 24))
+                        .fontWeight(.semibold)
+                    Spacer()
+                } //end of Hstack
+                        .overlay{
+                            HStack{
+                                Spacer()
+                                Button{
+                                    
+                                }label: {
+                                    Text("Logout")
+                                        .foregroundColor(Color(.systemGray))
+                                }
+                                .padding (.trailing)
+                            }
+                        }// end of HStack Overlay
+                SearchBarView(searchText: $searchtext)
+                    .padding()
+                
+                }// end of Vstack
+            } // end of Zstack
+            
         }
     }
-}
+
 
 struct DashboardView_Previews: PreviewProvider {
     static var previews: some View {
