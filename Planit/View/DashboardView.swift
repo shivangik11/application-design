@@ -39,6 +39,16 @@ struct DashboardView: View {
                 SearchBarView(searchText: $searchtext)
                     .padding()
                 
+                
+                PlanButtonStack (viewModel: viewModel)
+                    .padding(.horizontal)
+                    .padding(.bottom)
+                
+                
+                if viewModel.PlanFiltered.isEmpty{
+                    Text("Get started!")
+                        
+                }
                 }// end of Vstack
             } // end of Zstack
             

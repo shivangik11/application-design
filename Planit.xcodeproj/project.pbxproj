@@ -39,6 +39,12 @@
 		83FC477A293FB27800682124 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC4779293FB27800682124 /* DashboardView.swift */; };
 		83FC477C293FD8FA00682124 /* planViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC477B293FD8FA00682124 /* planViewModel.swift */; };
 		83FC477E293FE56A00682124 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC477D293FE56A00682124 /* SearchBarView.swift */; };
+		83FC4780293FF63D00682124 /* PlanButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC477F293FF63D00682124 /* PlanButtonStack.swift */; };
+		83FC47822940073F00682124 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC47812940073F00682124 /* PlanView.swift */; };
+		83FC478429400AC000682124 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC478329400AC000682124 /* BlankView.swift */; };
+		83FC478629400B5300682124 /* CreatePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC478529400B5300682124 /* CreatePlanView.swift */; };
+		83FC478829400EE500682124 /* PlanTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC478729400EE500682124 /* PlanTextField.swift */; };
+		83FC478A2940119100682124 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC47892940119000682124 /* CustomTextEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +73,12 @@
 		83FC4779293FB27800682124 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		83FC477B293FD8FA00682124 /* planViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planViewModel.swift; sourceTree = "<group>"; };
 		83FC477D293FE56A00682124 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		83FC477F293FF63D00682124 /* PlanButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanButtonStack.swift; sourceTree = "<group>"; };
+		83FC47812940073F00682124 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		83FC478329400AC000682124 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		83FC478529400B5300682124 /* CreatePlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlanView.swift; sourceTree = "<group>"; };
+		83FC478729400EE500682124 /* PlanTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTextField.swift; sourceTree = "<group>"; };
+		83FC47892940119000682124 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +147,8 @@
 				83A54234291C720000691908 /* Utils */,
 				83A54235291C721900691908 /* Authentication */,
 				83FC4779293FB27800682124 /* DashboardView.swift */,
+				83FC47812940073F00682124 /* PlanView.swift */,
+				83FC478529400B5300682124 /* CreatePlanView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +182,9 @@
 				83A5423C291DA5FB00691908 /* CustomTextField.swift */,
 				83F24149293D2FF50009049A /* AuthenticateButton.swift */,
 				83FC477D293FE56A00682124 /* SearchBarView.swift */,
+				83FC477F293FF63D00682124 /* PlanButtonStack.swift */,
+				83FC478329400AC000682124 /* BlankView.swift */,
+				83FC47892940119000682124 /* CustomTextEditor.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -184,6 +201,7 @@
 		83F24140293D17A00009049A /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
+				83FC478729400EE500682124 /* PlanTextField.swift */,
 				83F24143293D17ED0009049A /* EmailTextField.swift */,
 				83F24145293D1D380009049A /* CustomSecureField.swift */,
 				83F24147293D29520009049A /* PasswordSecureView.swift */,
@@ -292,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F24162293E5EAC0009049A /* AppUser.swift in Sources */,
+				83FC4780293FF63D00682124 /* PlanButtonStack.swift in Sources */,
 				83F24148293D29520009049A /* PasswordSecureView.swift in Sources */,
 				83F24144293D17ED0009049A /* EmailTextField.swift in Sources */,
 				83F2416B293E68E80009049A /* MockData.swift in Sources */,
@@ -301,16 +320,21 @@
 				83A5423D291DA5FB00691908 /* CustomTextField.swift in Sources */,
 				83A54237291C724A00691908 /* SignupView.swift in Sources */,
 				83FC477A293FB27800682124 /* DashboardView.swift in Sources */,
+				83FC478629400B5300682124 /* CreatePlanView.swift in Sources */,
 				83FC477E293FE56A00682124 /* SearchBarView.swift in Sources */,
 				83FC4778293FAB1100682124 /* AuthViewModel.swift in Sources */,
+				83FC478429400AC000682124 /* BlankView.swift in Sources */,
 				83A5423B291C849100691908 /* LogoView.swift in Sources */,
+				83FC478829400EE500682124 /* PlanTextField.swift in Sources */,
 				83A54233291C71BB00691908 /* Loginview.swift in Sources */,
 				83F24160293E5DB80009049A /* Constants.swift in Sources */,
 				83F2414A293D2FF50009049A /* AuthenticateButton.swift in Sources */,
 				83A54224291C5E8200691908 /* ContentView.swift in Sources */,
+				83FC478A2940119100682124 /* CustomTextEditor.swift in Sources */,
 				83F24164293E626E0009049A /* plan.swift in Sources */,
 				83A54239291C731100691908 /* BackgroundGradientView.swift in Sources */,
 				83F24146293D1D380009049A /* CustomSecureField.swift in Sources */,
+				83FC47822940073F00682124 /* PlanView.swift in Sources */,
 				83A54222291C5E8200691908 /* PlanitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
