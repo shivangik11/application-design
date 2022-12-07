@@ -33,7 +33,7 @@ struct CreatePlanView: View {
                             .padding([.horizontal, .bottom])
             HStack{
                 Button{
-                    viewModel.uploadplan(Plan: plan(ownerID: user.id ?? "", title: title, description: PlanDescription, planType: viewModel.filterplanSelected == .all ? "Extra" :
+                    viewModel.uploadplan(Plan: plan(ownerUid: user.id ?? "", title: title, description: PlanDescription, planType: viewModel.filterplanSelected == .all ? "Extra" :
                                                         viewModel.filterplanSelected.rawValue, completed: false))
                     viewModel.showCreateplanView = false
                     

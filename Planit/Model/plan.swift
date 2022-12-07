@@ -11,7 +11,7 @@ import FirebaseFirestoreSwift
 
 struct plan: Identifiable, Decodable{
     @DocumentID var id: String? = UUID().uuidString
-    let ownerID: String
+    let ownerUid: String
     let title: String
     let description: String
     let planType: String

@@ -10,39 +10,39 @@ import SwiftUI
 struct PlanView: View {
     
     
-    var plan: plan
+    var Plan: plan
     
     @ObservedObject var viewModel: planViewModel
     
     var body: some View {
         HStack{
             Button{
-                if plan.completed{
-                    viewModel.unCompleteplan(PlanID: plan.documentID ?? "")
+                if Plan.completed{
+                    viewModel.unCompleteplan(PlanID: Plan.documentID ?? "")
                     } else {
-                        viewModel.completeplan(PlanID: plan.documentID ?? "" )
+                        viewModel.completeplan(PlanID: Plan.documentID ?? "" )
                     
                 }
                 
             }label: {
-                Image(systemName: plan.completed ? "checkmark,square, fill":
+                Image(systemName: Plan.completed ? "checkmark,square, fill":
                 "square")
                 .resizable()
                 .frame(width: 25, height: 25)
                 .foregroundColor(Color.gray)
             }
             VStack(alignment: .leading,spacing: 5){
-                Text (plan.title)
+                Text (Plan.title)
                     .font(.system(size: 18))
                 
-                if plan.description != ""{
+                if Plan.description != ""{
                     HStack{
                         Image(systemName: "line.3.horizontal")
                             .resizable()
                             .frame(width: 15, height: 10)
                             .foregroundColor(Color.gray)
                         
-                        Text("\(plan.description)")
+                        Text("\(Plan.description)")
                             .font(.system(size: 14))
                             .foregroundColor(Color.gray)
                     }
@@ -72,6 +72,6 @@ struct PlanView: View {
 
 struct PlanView_Previews: PreviewProvider {
     static var previews: some View {
-        PlanView(plan: plan01, viewModel: planViewModel())
+        PlanView(Plan: plan01, viewModel: planViewModel())
     }
 }

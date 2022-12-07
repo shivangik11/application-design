@@ -34,6 +34,38 @@
             endingLineNumber = "6"
             landmarkName = "unknown"
             landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "A3EA0020-F05D-4DE9-A1CA-326E7E5491C7 - 3c2c90ca324310b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Planit.SelectedButton.rawValue.getter : Swift.String"
+                  moduleName = "Planit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shivangi/Documents/Masters/Sem-3/Front%20end/application-design/Planit/Model/SelectedButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "47">
+               </Location>
+               <Location
+                  uuid = "A3EA0020-F05D-4DE9-A1CA-326E7E5491C7 - 8474d7abffe9ac82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Planit.SelectedButton.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;Planit.SelectedButton&gt;"
+                  moduleName = "Planit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shivangi/Documents/Masters/Sem-3/Front%20end/application-design/Planit/Model/SelectedButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

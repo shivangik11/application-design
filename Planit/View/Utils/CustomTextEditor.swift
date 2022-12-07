@@ -15,6 +15,7 @@ struct CustomTextEditor: View{
     let imageName: String
     var foregroundColor: Color?
     
+    
     init(text: Binding<String>, placeholder: Text, imageName: String, foregroundColor: Color?) {
         self._text = text
         self.placeholder = placeholder
