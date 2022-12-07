@@ -6,11 +6,25 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
-      
-        Loginview()
+        
+        Group{
+            if viewModel.userSesssion == nil {
+                Loginview()
+                
+            } else {
+                if let user  = viewModel.currentUser{
+                    DashboardView(user: user)
+                }
+            }
+            
+        }
     }
 }
 
